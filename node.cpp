@@ -16,6 +16,7 @@ class Node
 int main()
 {
     Node* node1 = new Node(10);
+    cout<<"the head node is"<<endl;
     cout<<node1->data<<":"<<node1->next<<endl;
     return 0;
 }
